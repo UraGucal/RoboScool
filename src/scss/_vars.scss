@@ -1,0 +1,23 @@
+// если вы хотите использовать sass-переменные - удалите root
+// colors
+:root {  //корень
+  // base
+  --font-family: "Jost", sans-serif;  //Вставляем в переменную название семейства шрифтов.
+  //Ширина основного контейнера.
+  --content-width: 1160px;
+  //Ширина широкого контейнера fluid
+  --content-fluid-width: 1790px;
+
+  --container-offset: 15px; //Переменная padding для container.
+  //container
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+  //container-fluid
+  --container-fluid-width: calc(var(--content-fluid-width) + (var(--container-offset) * 2));
+
+  // colors
+  --light-color: #fff;
+  --accent-color: #D52027;
+  --text-color: rgba(20,16,36, 0.7);
+  --dark-color: #141024;
+
+}

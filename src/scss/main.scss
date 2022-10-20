@@ -1,0 +1,33 @@
+// базовые подключения
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+// подключения компонентов страницы
+@import './components/benefits';
+//@at-root
+@import "./components/section-tittle";
+//Кнопка записаться на курс
+@import "./components/btn";
+//стили header
+@import "./components/header";
+//Стили для hero
+@import "./components/hero";
+//стили навигации
+@import "./components/nav";
+//стили телефон
+@import "./components/phone";
+//О компании
+@import "./components/about";
+//секция преимущества
+@import "./components/benefits";
+//Секция тренеры
+@import "./components/trainers";
+
+//Подключение tooltip
+@import "./components/tooltip";
+
+
+
+
