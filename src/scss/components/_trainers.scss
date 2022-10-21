@@ -1,14 +1,47 @@
 .trainers{
   padding: 120px 0px 138px;
 
-  &__wrapper {
-    padding-left: max(15px, calc((100% - var(--content-width)) / 2));
-  }
-
   &__section-tittle {
     font-weight: 600;
     font-size: 50px;
     line-height: 160%;
     color: var(--text-color);
   }
+
+  &__wrapper {
+    padding-left: max(15px, calc((100% - var(--content-width)) / 2));
+  }
+
+  &__image {
+    border-radius: 20px;
+    margin-bottom: 20px;
+    max-height: 490px;
+    object-fit: cover;
+  }
+
+  &__name {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 160%;
+    color: var(--text-color);
+    margin-bottom: 10px;
+  }
+
+  &__post {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: var(--text-color);
+    margin-bottom: 20px;
+  }
+
+  &__btn {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: var(--accent-color);
+  }
+
+
+
 }
